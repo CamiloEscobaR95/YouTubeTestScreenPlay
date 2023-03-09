@@ -1,0 +1,4 @@
+2023-03-09T13:23:09,943 [main] INFO  (SuscripcionCanal.java:41) - La suscripcion al canal Julian Mesa no fue posible, debe iniciar sessión
+2023-03-09T13:25:21,017 [main] ERROR (SuscripcionCanal.java:41) - La suscripcion al canal Julian Mesa no fue posible, debe iniciar sessión
+2023-03-09T14:49:06,446 [main] INFO  (ResultadosCanal.java:33) - El canal ha sido encontrado, en los resultados de busqueda!
+2023-03-09T14:49:18,030 [main] INFO  (SuscripcionCanal.java:42) - La suscripcion al canal Julian Mesa no fue posible, debe iniciar sessión
