@@ -8,31 +8,39 @@ import static  net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 import static org.hamcrest.CoreMatchers.equalTo;
 
 
-import questions.ResultadosBusqueda;
-import tasks.YoutubeBusquedaTk;
-import userInterfaces.HomePage;
+import questions.homepage.ResultadosBusquedaQ;
+import tasks.home_page.HomePageBusquedaTk;
+import tasks.home_page.SeleccionarVideoRandomTk;
+import userInterfaces.HomePageUI;
 
-public class BusquedaDefinitions {
+public class HomePageDefnitions {
 
     @Given("^el usuario ingresa a youtube$")
     public void elUsuarioIngresaAYoutube() {
-        HomePage youtube = new HomePage();
+        HomePageUI youtube = new HomePageUI();
         theActorInTheSpotlight().wasAbleTo(
                 Open.browserOn(youtube)
         );
     }
 
     @When("^el usuario realiza la busqueda de un tema (.*)$")
-    public void elUsuarioRealizaLaBusquedaDeUnTemaAutomatizacionDePruebas(String busqueda) {
+    public void elUsuarioRealizaLaBusquedaDeUnTema(String busqueda) {
         theActorInTheSpotlight().wasAbleTo(
-                YoutubeBusquedaTk.realizarBusqueda(busqueda)
+                HomePageBusquedaTk.realizarBusqueda(busqueda)
+        );
+    }
+
+    @When("^el usuario selecciona un video en home page$")
+    public void elUsuarioSeleccionaUnVideoEnHomePage() {
+        theActorInTheSpotlight().wasAbleTo(
+                    SeleccionarVideoRandomTk.seleccionar()
         );
     }
 
     @Then("^el usuario visulaiza los diferentes resultados de busqueda (.*)$")
     public void elUsuarioVisulaizaLosDiferentesResultadosDeBusqueda(String tema) {
         theActorInTheSpotlight().should(
-                seeThat(ResultadosBusqueda.validarResultado(tema), equalTo(tema))
+                seeThat(ResultadosBusquedaQ.validarResultado(tema), equalTo(tema))
         );
     }
 

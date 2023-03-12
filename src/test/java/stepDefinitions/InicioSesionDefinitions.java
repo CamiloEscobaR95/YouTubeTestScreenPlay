@@ -1,7 +1,7 @@
 package stepDefinitions;
 
 import cucumber.api.java.en.*;
-import questions.login.Login;
+import questions.login.LoginQ;
 import tasks.login.IniciarSesionTk;
 
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
@@ -20,7 +20,7 @@ public class InicioSesionDefinitions {
     @Then("^el usuario visualiza el home page desde su cuenta$")
     public void elUsuarioVisualizaElHomePageDesdeSuCuenta() {
         theActorInTheSpotlight().should(
-            seeThat(Login.validarLogin(true), equalTo(true))
+            seeThat(LoginQ.validarLogin(true), equalTo(true))
         );
     }
 

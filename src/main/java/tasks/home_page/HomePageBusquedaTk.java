@@ -1,4 +1,4 @@
-package tasks;
+package tasks.home_page;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
@@ -6,18 +6,18 @@ import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
-import static userInterfaces.HomePage.*;
+import static userInterfaces.HomePageUI.*;
 
-public class YoutubeBusquedaTk implements Task {
+public class HomePageBusquedaTk implements Task {
 
     private  String busqueda;
 
-    public YoutubeBusquedaTk(String busqueda) {
+    public HomePageBusquedaTk(String busqueda) {
         this.busqueda = busqueda;
     }
 
-    public static YoutubeBusquedaTk realizarBusqueda(String busqueda) {
-        return instrumented(YoutubeBusquedaTk.class, busqueda);
+    public static HomePageBusquedaTk realizarBusqueda(String busqueda) {
+        return instrumented(HomePageBusquedaTk.class, busqueda);
     }
 
     @Override

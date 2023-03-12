@@ -1,23 +1,22 @@
-package tasks.canales;
+package tasks.home_page;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
-import static userInterfaces.ResultadosBusquedaUI.*;
+import static userInterfaces.HomePageUI.VIDEO_RANDOM;
 
-public class YoutubeSuscribcionTk implements Task {
+public class SeleccionarVideoRandomTk implements Task {
 
-    public static YoutubeSuscribcionTk suscribirseCanal() {
-        return instrumented(YoutubeSuscribcionTk.class);
+    public static SeleccionarVideoRandomTk seleccionar() {
+        return instrumented(SeleccionarVideoRandomTk.class);
     }
 
     @Override
     public <T extends Actor> void performAs(T actor) {
-
         actor.attemptsTo(
-                Click.on(BTN_SUSCRIBIRSE)
+                Click.on(VIDEO_RANDOM)
         );
     }
 }

@@ -1,4 +1,4 @@
-package questions;
+package questions.homepage;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
@@ -7,19 +7,19 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import userInterfaces.ResultadosBusquedaUI;
 
-public class ResultadosBusqueda implements Question<String> {
+public class ResultadosBusquedaQ implements Question<String> {
 
-    private static final Logger logger = LogManager.getLogger(ResultadosBusqueda.class);
+    private static final Logger logger = LogManager.getLogger(ResultadosBusquedaQ.class);
 
     private final String tema;
 
-    public ResultadosBusqueda(String tema) {
+    public ResultadosBusquedaQ(String tema) {
         this.tema = tema;
     }
 
 
-    public static ResultadosBusqueda validarResultado(String tema) {
-        return new ResultadosBusqueda(tema);
+    public static ResultadosBusquedaQ validarResultado(String tema) {
+        return new ResultadosBusquedaQ(tema);
     }
 
     @Override

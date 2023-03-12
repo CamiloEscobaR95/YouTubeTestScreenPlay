@@ -1,22 +1,20 @@
 package questions.canales;
 
-import net.serenitybdd.screenplay.Actor;
-import net.serenitybdd.screenplay.Question;
-import net.serenitybdd.screenplay.questions.Text;
-import net.serenitybdd.screenplay.questions.Visibility;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import net.serenitybdd.screenplay.*;
+import net.serenitybdd.screenplay.questions.*;
+import org.apache.logging.log4j.*;
+
 
 import static userInterfaces.ResultadosBusquedaUI.*;
 
-public class ResultadosCanal implements Question<Boolean> {
+public class ResultadosCanalQ implements Question<Boolean> {
 
-    private static final Logger logger = LogManager.getLogger(ResultadosCanal.class);
+    private static final Logger logger = LogManager.getLogger(ResultadosCanalQ.class);
 
     private  final String canal;
     private static Boolean canalOk = false;
 
-    public ResultadosCanal(String canal, Boolean canalOk) {
+    public ResultadosCanalQ(String canal, Boolean canalOk) {
         super();
         this.canal = canal;
         this.canalOk = canalOk;
@@ -39,8 +37,7 @@ public class ResultadosCanal implements Question<Boolean> {
     }
 
     public static Question<Boolean> validarResultado(String canal) {
-        return new ResultadosCanal(canal, canalOk);
+        return new ResultadosCanalQ(canal, canalOk);
     }
-
 
 }

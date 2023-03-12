@@ -7,23 +7,23 @@ import net.serenitybdd.screenplay.questions.Visibility;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import static userInterfaces.HomePage.CANALES_SUSCRITOS;
+import static userInterfaces.HomePageUI.CANALES_SUSCRITOS;
 
 
-public class SuscripcionCanal implements Question<Boolean> {
+public class SuscripcionCanalQ implements Question<Boolean> {
 
-    private static final Logger logger = LogManager.getLogger(SuscripcionCanal.class);
+    private static final Logger logger = LogManager.getLogger(SuscripcionCanalQ.class);
 
     private static Boolean suscripcion = false;
     private final String canal;
 
-    public SuscripcionCanal(String canal, Boolean suscripcion) {
+    public SuscripcionCanalQ(String canal, Boolean suscripcion) {
         this.suscripcion = suscripcion;
         this.canal = canal;
     }
 
         public static Question<Boolean> validarSuscripcion(String canal) {
-        return new SuscripcionCanal(canal, suscripcion);
+        return new SuscripcionCanalQ(canal, suscripcion);
     }
 
     @Override

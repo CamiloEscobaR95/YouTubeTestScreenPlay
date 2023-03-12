@@ -1,10 +1,10 @@
 package stepDefinitions;
 
 import cucumber.api.java.en.*;
-import questions.canales.ResultadosCanal;
-import questions.canales.SuscripcionCanal;
-import tasks.canales.YoutubeBusquedaCanalTk;
-import tasks.canales.YoutubeSuscribcionTk;
+import questions.canales.ResultadosCanalQ;
+import questions.canales.SuscripcionCanalQ;
+import tasks.canales.BusquedaCanalTk;
+import tasks.canales.SuscribcionCanalTk;
 
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
@@ -15,11 +15,11 @@ public class SuscripcionDefinitions {
     @Given("^el usuario realiza la busqueda de un canal (.*)$")
     public void elUsuarioRealizaLaBusquedaDeUnCanalJulianMesa(String canal) throws InterruptedException {
         theActorInTheSpotlight().wasAbleTo(
-                YoutubeBusquedaCanalTk.buscarCanal(canal)
+                BusquedaCanalTk.buscarCanal(canal)
         );
 
         theActorInTheSpotlight().should(
-                seeThat(ResultadosCanal.validarResultado(canal), equalTo(true) )
+                seeThat(ResultadosCanalQ.validarResultado(canal), equalTo(true) )
         );
 
     }
@@ -27,14 +27,14 @@ public class SuscripcionDefinitions {
     @When("^el usuario se suscribe a el canal$")
     public void elUsuarioSeSuscribeAElCanal() {
         theActorInTheSpotlight().wasAbleTo(
-                YoutubeSuscribcionTk.suscribirseCanal()
+                SuscribcionCanalTk.suscribirseCanal()
         );
     }
 
     @Then("^el usuario valida la suscripcion (.*)$")
     public void elUsuarioValidaLaSuscripcion(String canal) {
         theActorInTheSpotlight().should(
-                seeThat(SuscripcionCanal.validarSuscripcion(canal), equalTo(true))
+                seeThat(SuscripcionCanalQ.validarSuscripcion(canal), equalTo(true))
         );
     }
 }

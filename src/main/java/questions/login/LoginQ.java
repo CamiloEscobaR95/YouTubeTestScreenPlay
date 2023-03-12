@@ -7,21 +7,21 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 
-import static userInterfaces.HomePage.*;
+import static userInterfaces.HomePageUI.*;
 
 
-public class Login implements Question<Boolean> {
+public class LoginQ implements Question<Boolean> {
 
-    private static final Logger logger = LogManager.getLogger(Login.class);
+    private static final Logger logger = LogManager.getLogger(LoginQ.class);
     private Boolean login = false;
 
-    public Login(boolean login) {
+    public LoginQ(boolean login) {
     }
 
 
     public static Question<Boolean> validarLogin(boolean login) {
 
-        return new Login(login);
+        return new LoginQ(login);
     }
 
 

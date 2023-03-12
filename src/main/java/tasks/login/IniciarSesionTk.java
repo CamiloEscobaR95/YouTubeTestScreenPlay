@@ -5,16 +5,16 @@ import net.serenitybdd.screenplay.actions.*;
 import net.serenitybdd.screenplay.questions.Visibility;
 import net.serenitybdd.screenplay.waits.WaitUntil;
 import org.apache.logging.log4j.*;
-import questions.canales.SuscripcionCanal;
+import questions.canales.SuscripcionCanalQ;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.*;
-import static userInterfaces.HomePage.*;
-import static userInterfaces.Login.*;
+import static userInterfaces.HomePageUI.*;
+import static userInterfaces.LoginUI.*;
 
 public class IniciarSesionTk implements Task {
 
-    private static final Logger logger = LogManager.getLogger(SuscripcionCanal.class);
+    private static final Logger logger = LogManager.getLogger(SuscripcionCanalQ.class);
     private final String email;
     private final String contrasena;
 
