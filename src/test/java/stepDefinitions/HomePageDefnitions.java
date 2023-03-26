@@ -1,10 +1,13 @@
 package stepDefinitions;
 
+import cucumber.api.CucumberOptions;
+import cucumber.api.Scenario;
 import cucumber.api.java.en.*;
 import net.serenitybdd.screenplay.actions.Open;
 
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static  net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
+
 import static org.hamcrest.CoreMatchers.equalTo;
 
 
@@ -17,10 +20,12 @@ public class HomePageDefnitions {
 
     @Given("^el usuario ingresa a youtube$")
     public void elUsuarioIngresaAYoutube() {
+
         HomePageUI youtube = new HomePageUI();
         theActorInTheSpotlight().wasAbleTo(
                 Open.browserOn(youtube)
         );
+
     }
 
     @When("^el usuario realiza la busqueda de un tema (.*)$")

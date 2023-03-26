@@ -1,0 +1,41 @@
+2023-03-16T00:04:21,428 [main] INFO  (ResultadosBusquedaQ.java:31) - El resultado de la busqueda es exitoso!
+2023-03-16T00:07:13,968 [main] INFO  (ResultadosBusquedaQ.java:31) - El resultado de la busqueda es exitoso!
+2023-03-16T00:09:53,803 [main] INFO  (ResultadosBusquedaQ.java:31) - El resultado de la busqueda es exitoso!
+2023-03-16T00:10:59,617 [main] INFO  (ResultadosBusquedaQ.java:31) - El resultado de la busqueda es exitoso!
+2023-03-16T00:11:54,337 [main] INFO  (ResultadosBusquedaQ.java:31) - El resultado de la busqueda es exitoso!
+2023-03-16T00:14:18,659 [main] INFO  (ResultadosBusquedaQ.java:31) - El resultado de la busqueda es exitoso!
+2023-03-16T00:16:59,812 [main] INFO  (ResultadosBusquedaQ.java:31) - El resultado de la busqueda es exitoso!
+2023-03-16T00:22:35,872 [main] INFO  (ResultadosBusquedaQ.java:31) - El resultado de la busqueda es exitoso!
+2023-03-16T00:24:25,708 [main] INFO  (ResultadosBusquedaQ.java:31) - El resultado de la busqueda es exitoso!
+2023-03-16T00:27:28,320 [main] INFO  (ResultadosBusquedaQ.java:31) - El resultado de la busqueda es exitoso!
+2023-03-16T00:35:19,676 [main] INFO  (ResultadosBusquedaQ.java:31) - El resultado de la busqueda es exitoso!
+2023-03-16T14:22:38,728 [main] INFO  (ResultadosBusquedaQ.java:31) - El resultado de la busqueda es exitoso!
+2023-03-16T15:59:27,900 [main] INFO  (ResultadosBusquedaQ.java:31) - El resultado de la busqueda es exitoso!
+2023-03-16T16:12:01,045 [main] INFO  (ResultadosBusquedaQ.java:31) - El resultado de la busqueda es exitoso!
+2023-03-16T16:37:35,398 [main] INFO  (ResultadosBusquedaQ.java:31) - El resultado de la busqueda es exitoso!
+2023-03-16T21:37:23,831 [main] INFO  (ResultadosBusquedaQ.java:31) - El resultado de la busqueda es exitoso!
+2023-03-16T21:42:16,956 [main] INFO  (ResultadosBusquedaQ.java:31) - El resultado de la busqueda es exitoso!
+2023-03-16T21:44:56,333 [main] INFO  (PlayStopTk.java:38) - El boton fue pausado en 0:06
+2023-03-16T21:45:01,966 [main] INFO  (PlayStopTk.java:43) - El boton fue reproducido en 0:06
+2023-03-16T21:45:07,662 [main] INFO  (PlayStopTk.java:48) - El boton fue pausado en 0:11
+2023-03-16T21:45:07,717 [main] INFO  (SiguienteTk.java:27) - El nombre del video en reproducción es: KAROL G, Shakira - TQG (Official Video)
+2023-03-16T21:45:10,486 [main] INFO  (SiguienteTk.java:42) - El video fue cambiado con exito!
+2023-03-16T21:45:10,555 [main] INFO  (SiguienteTk.java:27) - El nombre del video en reproducción es: Shakira - Bzrp music sesions #53
+2023-03-16T21:45:16,673 [main] INFO  (SiguienteTk.java:38) - No aparecio PopUp de youtube premium en la pantalla 2
+2023-03-16T21:45:16,736 [main] INFO  (SiguienteTk.java:42) - El video fue cambiado con exito!
+2023-03-16T21:51:44,736 [main] INFO  (PlayStopTk.java:38) - El boton fue pausado en 0:06
+2023-03-16T21:51:50,395 [main] INFO  (PlayStopTk.java:43) - El boton fue reproducido en 0:06
+2023-03-16T21:51:55,905 [main] INFO  (PlayStopTk.java:48) - El boton fue pausado en 0:11
+2023-03-16T21:51:55,963 [main] INFO  (SiguienteTk.java:27) - El nombre del video en reproducción es: KAROL G, Shakira - TQG (Official Video)
+2023-03-16T21:51:58,588 [main] INFO  (SiguienteTk.java:42) - El video fue cambiado con exito!
+2023-03-16T21:51:58,652 [main] INFO  (SiguienteTk.java:27) - El nombre del video en reproducción es: SHAKIRA || BZRP Music Sessions #53
+2023-03-16T21:52:05,002 [main] INFO  (SiguienteTk.java:38) - No aparecio PopUp de youtube premium en la pantalla 2
+2023-03-16T21:52:05,065 [main] INFO  (SiguienteTk.java:42) - El video fue cambiado con exito!
+2023-03-16T21:57:55,212 [main] INFO  (IniciarSesionTk.java:37) - Ingresamos a llenar el campo de email
+2023-03-16T21:58:00,153 [main] INFO  (IniciarSesionTk.java:46) - Click en boton siguiente de email OK
+2023-03-16T21:58:00,416 [main] INFO  (IniciarSesionTk.java:49) - Ingresamos a llenar el campo de contraseña
+2023-03-16T21:58:01,364 [main] INFO  (IniciarSesionTk.java:55) - Click en boton siguiente de conraseña OK
+2023-03-16T21:58:11,631 [main] ERROR (LoginQ.java:35) - No se logro iniciar sesion.
+2023-03-16T21:58:25,665 [main] INFO  (ResultadosBusquedaQ.java:31) - El resultado de la busqueda es exitoso!
+2023-03-16T21:58:54,547 [main] INFO  (ResultadosCanalQ.java:31) - El canal ha sido encontrado, en los resultados de busqueda!
+2023-03-16T21:59:06,580 [main] ERROR (SuscripcionCanalQ.java:42) - La suscripcion al canal Julian Mesa no fue posible, debe iniciar sessión

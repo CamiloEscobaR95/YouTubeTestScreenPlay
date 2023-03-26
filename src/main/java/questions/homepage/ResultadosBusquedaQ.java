@@ -2,6 +2,7 @@ package questions.homepage;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
+import net.serenitybdd.screenplay.questions.Attribute;
 import net.serenitybdd.screenplay.questions.Text;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -26,6 +27,7 @@ public class ResultadosBusquedaQ implements Question<String> {
     public String answeredBy(Actor actor) {
         String resultadoObtenido;
         resultadoObtenido = Text.of(ResultadosBusquedaUI.RESULT_NUM_UNO.of(tema)).viewedBy(actor).asString();
+
         if (resultadoObtenido.contains(tema)){
             resultadoObtenido = tema;
             logger.info("El resultado de la busqueda es exitoso!");

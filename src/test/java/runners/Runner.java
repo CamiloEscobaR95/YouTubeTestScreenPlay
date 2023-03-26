@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features/youtube.feature",
         glue = "stepDefinitions",
-        tags="@CP_GLOBAL",
+        tags="@CP_sonido",
         snippets = SnippetType.CAMELCASE
 )
 public class Runner {

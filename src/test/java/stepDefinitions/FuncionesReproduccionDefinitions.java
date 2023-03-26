@@ -14,4 +14,11 @@ public class FuncionesReproduccionDefinitions {
                 SiguienteTk.validarBoton()
         );
     }
+
+    @Then("^el usuario puede silenciar y activar el sonido del video$")
+    public void elUsuarioPuedeSilenciarYActivarElSonidoDelVideo() {
+        theActorInTheSpotlight().wasAbleTo(
+                SonidoTk.validarBoton()
+        );
+    }
 }
