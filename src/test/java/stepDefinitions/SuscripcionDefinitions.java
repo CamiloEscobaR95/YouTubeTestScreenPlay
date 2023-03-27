@@ -4,7 +4,7 @@ import cucumber.api.java.en.*;
 import questions.canales.ResultadosCanalQ;
 import questions.canales.SuscripcionCanalQ;
 import tasks.canales.BusquedaCanalTk;
-import tasks.canales.SuscribcionCanalTk;
+import tasks.canales.SuscripcionCanalTk;
 
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
@@ -27,7 +27,7 @@ public class SuscripcionDefinitions {
     @When("^el usuario se suscribe a el canal$")
     public void elUsuarioSeSuscribeAElCanal() {
         theActorInTheSpotlight().wasAbleTo(
-                SuscribcionCanalTk.suscribirseCanal()
+                SuscripcionCanalTk.suscribirseCanal()
         );
     }
 

@@ -1,2 +1,5 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
 "Como usuario de youtube","Busqueda de cancion","SUCCESS","2023-03-16T21:58:13.212-05:00[America/Bogota]","0.0","13.98"
+"Como usuario de youtube","Iniciar sesion en Youtube","SUCCESS","2023-03-26T11:21:17.232-05:00[America/Bogota]","0.0","32.5"
+"Como usuario de youtube","Validar Funciones reproducción/pausa y siguiente","SUCCESS","2023-03-26T11:22:53.14-05:00[America/Bogota]","0.0","50.86"
+"Como usuario de youtube","Validar Funcion silenciar/activar sonido","SUCCESS","2023-03-26T22:33:43.89-05:00[America/Bogota]","0.0","22.73"

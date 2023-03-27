@@ -7,10 +7,10 @@ import net.serenitybdd.screenplay.actions.Click;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 import static userInterfaces.ResultadosBusquedaUI.*;
 
-public class SuscribcionCanalTk implements Task {
+public class SuscripcionCanalTk implements Task {
 
-    public static SuscribcionCanalTk suscribirseCanal() {
-        return instrumented(SuscribcionCanalTk.class);
+    public static SuscripcionCanalTk suscribirseCanal() {
+        return instrumented(SuscripcionCanalTk.class);
     }
 
     @Override

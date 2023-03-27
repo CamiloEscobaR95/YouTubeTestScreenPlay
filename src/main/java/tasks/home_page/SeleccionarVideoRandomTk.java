@@ -15,8 +15,15 @@ public class SeleccionarVideoRandomTk implements Task {
 
     @Override
     public <T extends Actor> void performAs(T actor) {
-        actor.attemptsTo(
-                Click.on(VIDEO_RANDOM)
-        );
+        try {
+            actor.attemptsTo(
+                    Click.on(VIDEO_RANDOM)
+            );
+        }catch (Exception e){   //Se reintenta seleccionar el video cuando el try no lo hace.
+            actor.attemptsTo(
+                    Click.on(VIDEO_RANDOM)
+            );
+        }
+
     }
 }

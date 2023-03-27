@@ -12,7 +12,7 @@ public class PlayStopTk implements Task {
 
     private static final Logger logger = LogManager.getLogger(PlayStopTk.class);
 
-    public static PlayStopTk validarBoton() {
+    public static PlayStopTk reproducirPausar() {
         return instrumented(PlayStopTk.class);
     }
 

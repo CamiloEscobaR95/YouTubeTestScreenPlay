@@ -12,7 +12,7 @@ public class SiguienteTk implements Task {
 
     private static final Logger logger = LogManager.getLogger(PlayStopTk.class);
 
-    public static SiguienteTk validarBoton() {
+    public static SiguienteTk siguienteCancion() {
         return instrumented(SiguienteTk.class);
     }
 

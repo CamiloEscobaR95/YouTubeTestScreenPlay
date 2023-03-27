@@ -6,7 +6,6 @@ import net.serenitybdd.screenplay.questions.Visibility;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-
 import static userInterfaces.HomePageUI.*;
 
 
