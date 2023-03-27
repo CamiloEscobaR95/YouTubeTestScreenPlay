@@ -10,7 +10,8 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features/youtube.feature",
         glue = "stepDefinitions",
         tags="@CP_004",
-        snippets = SnippetType.CAMELCASE
+        snippets = SnippetType.CAMELCASE,
+        plugin = "pretty"
 )
 public class Runner {
 }
