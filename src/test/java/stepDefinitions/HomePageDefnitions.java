@@ -8,6 +8,7 @@ import net.serenitybdd.screenplay.actions.Open;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static  net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 
+import static net.thucydides.core.webdriver.ThucydidesWebDriverSupport.getDriver;
 import static org.hamcrest.CoreMatchers.equalTo;
 
 

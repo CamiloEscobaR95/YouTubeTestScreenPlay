@@ -1,17 +1,29 @@
-2023-03-27T10:41:00,750 [main] INFO  (SonidoTk.java:28) - El sonido fue cancelado!
-2023-03-27T10:41:10,841 [main] ERROR (SonidoTk.java:37) - Existe un error y el boton para activar sonido no pudo ser encontrado
-2023-03-27T10:42:36,722 [main] INFO  (SonidoTk.java:28) - El sonido fue cancelado!
-2023-03-27T10:42:38,127 [main] INFO  (SonidoTk.java:34) - El sonido fue activado!
-2023-03-27T11:22:32,645 [main] INFO  (SonidoTk.java:28) - El sonido fue cancelado!
-2023-03-27T11:22:42,748 [main] ERROR (SonidoTk.java:37) - Existe un error y el boton para activar sonido no pudo ser encontrado
-2023-03-27T11:24:57,812 [main] INFO  (SonidoTk.java:28) - El sonido fue cancelado!
-2023-03-27T11:24:59,187 [main] INFO  (SonidoTk.java:34) - El sonido fue activado!
-2023-03-27T11:27:02,506 [main] INFO  (SonidoTk.java:28) - El sonido fue cancelado!
-2023-03-27T11:27:09,042 [main] INFO  (SonidoTk.java:34) - El sonido fue activado!
-2023-03-27T11:31:14,454 [main] INFO  (SonidoTk.java:28) - El sonido fue cancelado!
-2023-03-27T11:32:14,395 [main] INFO  (SonidoTk.java:28) - El sonido fue cancelado!
-2023-03-27T11:32:15,694 [main] INFO  (SonidoTk.java:34) - El sonido fue activado!
-2023-03-27T11:34:30,775 [main] INFO  (SonidoTk.java:28) - El sonido fue cancelado!
-2023-03-27T11:34:32,177 [main] INFO  (SonidoTk.java:34) - El sonido fue activado!
-2023-03-27T11:36:21,004 [main] INFO  (SonidoTk.java:28) - El sonido fue cancelado!
-2023-03-27T11:36:22,417 [main] INFO  (SonidoTk.java:34) - El sonido fue activado!
+2023-03-29T11:03:51,343 [main] INFO  (IniciarSesionTk.java:37) - Ingresamos a llenar el campo de email
+2023-03-29T11:03:55,643 [main] INFO  (IniciarSesionTk.java:46) - Click en boton siguiente de email OK
+2023-03-29T11:03:55,785 [main] INFO  (IniciarSesionTk.java:49) - Ingresamos a llenar el campo de contraseña
+2023-03-29T11:03:56,905 [main] INFO  (IniciarSesionTk.java:55) - Click en boton siguiente de conraseña OK
+2023-03-29T11:04:01,921 [main] INFO  (LoginQ.java:32) - Inicio de sesion Exitoso!
+2023-03-29T11:04:16,034 [main] INFO  (ResultadosBusquedaQ.java:33) - El resultado de la busqueda es exitoso!
+2023-03-29T11:10:15,932 [main] INFO  (IniciarSesionTk.java:37) - Ingresamos a llenar el campo de email
+2023-03-29T12:20:45,518 [main] INFO  (IniciarSesionTk.java:37) - Ingresamos a llenar el campo de email
+2023-03-29T12:20:49,572 [main] INFO  (IniciarSesionTk.java:46) - Click en boton siguiente de email OK
+2023-03-29T12:20:49,711 [main] INFO  (IniciarSesionTk.java:49) - Ingresamos a llenar el campo de contraseña
+2023-03-29T12:20:51,548 [main] INFO  (IniciarSesionTk.java:55) - Click en boton siguiente de conraseña OK
+2023-03-29T12:21:55,141 [main] INFO  (IniciarSesionTk.java:37) - Ingresamos a llenar el campo de email
+2023-03-29T12:21:59,789 [main] INFO  (IniciarSesionTk.java:46) - Click en boton siguiente de email OK
+2023-03-29T12:21:59,932 [main] INFO  (IniciarSesionTk.java:49) - Ingresamos a llenar el campo de contraseña
+2023-03-29T12:22:01,064 [main] INFO  (IniciarSesionTk.java:55) - Click en boton siguiente de conraseña OK
+2023-03-29T12:22:06,420 [main] INFO  (LoginQ.java:32) - Inicio de sesion Exitoso!
+2023-03-29T12:22:20,912 [main] INFO  (ResultadosBusquedaQ.java:33) - El resultado de la busqueda es exitoso!
+2023-03-29T12:22:41,023 [main] INFO  (PlayStopTk.java:38) - El boton fue pausado en 0:07
+2023-03-29T12:22:46,717 [main] INFO  (PlayStopTk.java:43) - El boton fue reproducido en 0:07
+2023-03-29T12:22:52,851 [main] INFO  (PlayStopTk.java:48) - El boton fue pausado en 0:13
+2023-03-29T12:22:53,314 [main] INFO  (SiguienteTk.java:27) - El nombre del video en reproducción es: JUAN LUIS GUERRA MIX EXITOS
+2023-03-29T12:23:04,669 [main] INFO  (SiguienteTk.java:38) - No aparecio PopUp de youtube premium en la pantalla 1
+2023-03-29T12:23:04,704 [main] INFO  (SiguienteTk.java:42) - El video fue cambiado con exito!
+2023-03-29T12:23:04,747 [main] INFO  (SiguienteTk.java:27) - El nombre del video en reproducción es: MARK ANTHONY 31 EXITOS
+2023-03-29T12:23:08,075 [main] INFO  (SiguienteTk.java:42) - El video fue cambiado con exito!
+2023-03-29T12:23:23,340 [main] INFO  (SonidoTk.java:28) - El sonido fue cancelado!
+2023-03-29T12:23:24,594 [main] INFO  (SonidoTk.java:34) - El sonido fue activado!
+2023-03-29T12:23:40,581 [main] INFO  (ResultadosCanalQ.java:31) - El canal ha sido encontrado, en los resultados de busqueda!
+2023-03-29T12:23:52,610 [main] ERROR (SuscripcionCanalQ.java:42) - La suscripcion al canal Julian Mesa no fue posible, debe iniciar sessión

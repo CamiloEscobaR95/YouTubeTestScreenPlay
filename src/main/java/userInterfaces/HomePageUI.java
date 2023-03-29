@@ -5,6 +5,7 @@ import net.serenitybdd.screenplay.targets.Target;
 import net.thucydides.core.annotations.DefaultUrl;
 
 @DefaultUrl("https://www.youtube.com/")
+
 public class HomePageUI extends PageObject {
 
     public static final Target INPUT_BUSQUEDA = Target.the("Caja de busqueda").locatedBy("//input[@id=\"search\"]");

@@ -1,4 +1,4 @@
-
+@CP_GLOBAL
 Feature: Como usuario de youtube
   quiero ingresar al aplicativo
   para validar sus diferentes funcionalidades.
