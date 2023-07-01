@@ -1,0 +1,87 @@
+2023-03-29T11:03:51,343 [main] INFO  (IniciarSesionTk.java:37) - Ingresamos a llenar el campo de email
+2023-03-29T11:03:55,643 [main] INFO  (IniciarSesionTk.java:46) - Click en boton siguiente de email OK
+2023-03-29T11:03:55,785 [main] INFO  (IniciarSesionTk.java:49) - Ingresamos a llenar el campo de contraseña
+2023-03-29T11:03:56,905 [main] INFO  (IniciarSesionTk.java:55) - Click en boton siguiente de conraseña OK
+2023-03-29T11:04:01,921 [main] INFO  (LoginQ.java:32) - Inicio de sesion Exitoso!
+2023-03-29T11:04:16,034 [main] INFO  (ResultadosBusquedaQ.java:33) - El resultado de la busqueda es exitoso!
+2023-03-29T11:10:15,932 [main] INFO  (IniciarSesionTk.java:37) - Ingresamos a llenar el campo de email
+2023-03-29T12:20:45,518 [main] INFO  (IniciarSesionTk.java:37) - Ingresamos a llenar el campo de email
+2023-03-29T12:20:49,572 [main] INFO  (IniciarSesionTk.java:46) - Click en boton siguiente de email OK
+2023-03-29T12:20:49,711 [main] INFO  (IniciarSesionTk.java:49) - Ingresamos a llenar el campo de contraseña
+2023-03-29T12:20:51,548 [main] INFO  (IniciarSesionTk.java:55) - Click en boton siguiente de conraseña OK
+2023-03-29T12:21:55,141 [main] INFO  (IniciarSesionTk.java:37) - Ingresamos a llenar el campo de email
+2023-03-29T12:21:59,789 [main] INFO  (IniciarSesionTk.java:46) - Click en boton siguiente de email OK
+2023-03-29T12:21:59,932 [main] INFO  (IniciarSesionTk.java:49) - Ingresamos a llenar el campo de contraseña
+2023-03-29T12:22:01,064 [main] INFO  (IniciarSesionTk.java:55) - Click en boton siguiente de conraseña OK
+2023-03-29T12:22:06,420 [main] INFO  (LoginQ.java:32) - Inicio de sesion Exitoso!
+2023-03-29T12:22:20,912 [main] INFO  (ResultadosBusquedaQ.java:33) - El resultado de la busqueda es exitoso!
+2023-03-29T12:22:41,023 [main] INFO  (PlayStopTk.java:38) - El boton fue pausado en 0:07
+2023-03-29T12:22:46,717 [main] INFO  (PlayStopTk.java:43) - El boton fue reproducido en 0:07
+2023-03-29T12:22:52,851 [main] INFO  (PlayStopTk.java:48) - El boton fue pausado en 0:13
+2023-03-29T12:22:53,314 [main] INFO  (SiguienteTk.java:27) - El nombre del video en reproducción es: JUAN LUIS GUERRA MIX EXITOS
+2023-03-29T12:23:04,669 [main] INFO  (SiguienteTk.java:38) - No aparecio PopUp de youtube premium en la pantalla 1
+2023-03-29T12:23:04,704 [main] INFO  (SiguienteTk.java:42) - El video fue cambiado con exito!
+2023-03-29T12:23:04,747 [main] INFO  (SiguienteTk.java:27) - El nombre del video en reproducción es: MARK ANTHONY 31 EXITOS
+2023-03-29T12:23:08,075 [main] INFO  (SiguienteTk.java:42) - El video fue cambiado con exito!
+2023-03-29T12:23:23,340 [main] INFO  (SonidoTk.java:28) - El sonido fue cancelado!
+2023-03-29T12:23:24,594 [main] INFO  (SonidoTk.java:34) - El sonido fue activado!
+2023-03-29T12:23:40,581 [main] INFO  (ResultadosCanalQ.java:31) - El canal ha sido encontrado, en los resultados de busqueda!
+2023-03-29T12:23:52,610 [main] ERROR (SuscripcionCanalQ.java:42) - La suscripcion al canal Julian Mesa no fue posible, debe iniciar sessión
+2023-06-14T11:58:11,603 [main] INFO  (IniciarSesionTk.java:37) - Ingresamos a llenar el campo de email
+2023-06-14T11:58:14,164 [main] INFO  (IniciarSesionTk.java:46) - Click en boton siguiente de email OK
+2023-06-14T11:58:14,568 [main] INFO  (IniciarSesionTk.java:49) - Ingresamos a llenar el campo de contraseña
+2023-06-14T11:58:15,595 [main] INFO  (IniciarSesionTk.java:55) - Click en boton siguiente de conraseña OK
+2023-06-14T11:58:20,822 [main] ERROR (LoginQ.java:34) - No se logro iniciar sesion.
+2023-06-14T12:21:51,934 [main] INFO  (IniciarSesionTk.java:37) - Ingresamos a llenar el campo de email
+2023-06-14T12:21:55,616 [main] INFO  (IniciarSesionTk.java:46) - Click en boton siguiente de email OK
+2023-06-14T12:21:55,759 [main] INFO  (IniciarSesionTk.java:49) - Ingresamos a llenar el campo de contraseña
+2023-06-14T12:21:57,061 [main] INFO  (IniciarSesionTk.java:55) - Click en boton siguiente de conraseña OK
+2023-06-14T12:22:07,566 [main] ERROR (LoginQ.java:34) - No se logro iniciar sesion.
+2023-06-14T12:22:22,969 [main] INFO  (ResultadosBusquedaQ.java:33) - El resultado de la busqueda es exitoso!
+2023-06-14T12:22:44,635 [main] INFO  (PlayStopTk.java:38) - El boton fue pausado en 0:07
+2023-06-14T12:22:51,025 [main] INFO  (PlayStopTk.java:43) - El boton fue reproducido en 0:08
+2023-06-14T12:22:57,587 [main] INFO  (PlayStopTk.java:48) - El boton fue pausado en 0:03
+2023-06-14T12:22:58,038 [main] INFO  (SiguienteTk.java:27) - El nombre del video en reproducción es: Bon Jovi, Aerosmith, Whitesnake, GnR, U2, Kansas, ACDC 💥Best 70s 80s Classic Rock Greatest Hits
+2023-06-14T12:23:09,732 [main] INFO  (SiguienteTk.java:38) - No aparecio PopUp de youtube premium en la pantalla 1
+2023-06-14T12:23:09,776 [main] INFO  (SiguienteTk.java:42) - El video fue cambiado con exito!
+2023-06-14T12:23:09,820 [main] INFO  (SiguienteTk.java:27) - El nombre del video en reproducción es: U2, Aerosmith, Nirvana, Queen, The Beatles, Guns'n Roes- Top 100 Best Classic Rock Songs Of All Time
+2023-06-14T12:23:20,848 [main] INFO  (SiguienteTk.java:38) - No aparecio PopUp de youtube premium en la pantalla 2
+2023-06-14T12:23:20,898 [main] INFO  (SiguienteTk.java:42) - El video fue cambiado con exito!
+2023-06-14T12:23:35,732 [main] INFO  (SonidoTk.java:28) - El sonido fue cancelado!
+2023-06-14T12:23:45,866 [main] ERROR (SonidoTk.java:37) - Existe un error y el boton para activar sonido no pudo ser encontrado
+2023-06-14T12:24:14,128 [main] INFO  (ResultadosCanalQ.java:31) - El canal ha sido encontrado, en los resultados de busqueda!
+2023-06-14T12:24:26,360 [main] ERROR (SuscripcionCanalQ.java:42) - La suscripcion al canal Julian Mesa no fue posible, debe iniciar sessión
+2023-06-14T18:39:59,585 [main] INFO  (IniciarSesionTk.java:37) - Ingresamos a llenar el campo de email
+2023-06-14T18:40:04,753 [main] INFO  (IniciarSesionTk.java:46) - Click en boton siguiente de email OK
+2023-06-14T18:40:05,059 [main] INFO  (IniciarSesionTk.java:49) - Ingresamos a llenar el campo de contraseña
+2023-06-14T18:40:06,166 [main] INFO  (IniciarSesionTk.java:55) - Click en boton siguiente de conraseña OK
+2023-06-14T18:40:16,895 [main] ERROR (LoginQ.java:34) - No se logro iniciar sesion.
+2023-06-14T18:40:33,954 [main] INFO  (ResultadosBusquedaQ.java:33) - El resultado de la busqueda es exitoso!
+2023-06-14T18:40:54,692 [main] INFO  (PlayStopTk.java:38) - El boton fue pausado en 0:06
+2023-06-14T18:41:00,722 [main] INFO  (PlayStopTk.java:43) - El boton fue reproducido en 0:07
+2023-06-14T18:41:07,044 [main] INFO  (PlayStopTk.java:48) - El boton fue pausado en 0:13
+2023-06-14T18:41:07,483 [main] INFO  (SiguienteTk.java:27) - El nombre del video en reproducción es: Por La Ventana Podcast EN VIVO #31 : Boyacoman
+2023-06-14T18:41:19,347 [main] INFO  (SiguienteTk.java:38) - No aparecio PopUp de youtube premium en la pantalla 1
+2023-06-14T18:41:19,424 [main] INFO  (SiguienteTk.java:42) - El video fue cambiado con exito!
+2023-06-14T18:41:19,484 [main] INFO  (SiguienteTk.java:27) - El nombre del video en reproducción es: Por La Ventana Podcast EN VIVO #28 : Si Fuera Yeimmy
+2023-06-14T18:41:30,532 [main] INFO  (SiguienteTk.java:38) - No aparecio PopUp de youtube premium en la pantalla 2
+2023-06-14T18:41:30,656 [main] INFO  (SiguienteTk.java:42) - El video fue cambiado con exito!
+2023-06-14T18:41:46,456 [main] INFO  (SonidoTk.java:28) - El sonido fue cancelado!
+2023-06-14T18:42:11,962 [main] INFO  (ResultadosCanalQ.java:31) - El canal ha sido encontrado, en los resultados de busqueda!
+2023-06-14T18:42:24,544 [main] ERROR (SuscripcionCanalQ.java:42) - La suscripcion al canal Julian Mesa no fue posible, debe iniciar sessión
+2023-06-14T18:46:28,507 [main] INFO  (IniciarSesionTk.java:37) - Ingresamos a llenar el campo de email
+2023-06-14T18:46:33,277 [main] INFO  (IniciarSesionTk.java:46) - Click en boton siguiente de email OK
+2023-06-14T18:46:33,591 [main] INFO  (IniciarSesionTk.java:49) - Ingresamos a llenar el campo de contraseña
+2023-06-14T18:46:34,631 [main] INFO  (IniciarSesionTk.java:55) - Click en boton siguiente de conraseña OK
+2023-06-14T18:46:45,103 [main] ERROR (LoginQ.java:34) - No se logro iniciar sesion.
+2023-06-14T18:47:01,888 [main] INFO  (ResultadosBusquedaQ.java:33) - El resultado de la busqueda es exitoso!
+2023-06-14T18:47:23,251 [main] INFO  (PlayStopTk.java:38) - El boton fue pausado en 0:06
+2023-06-14T18:47:29,143 [main] INFO  (PlayStopTk.java:43) - El boton fue reproducido en 0:06
+2023-06-14T18:47:35,250 [main] INFO  (PlayStopTk.java:48) - El boton fue pausado en 0:12
+2023-06-14T18:47:35,861 [main] INFO  (SiguienteTk.java:27) - El nombre del video en reproducción es: Por La Ventana Podcast EN VIVO #31 : Boyacoman
+2023-06-14T18:47:47,288 [main] INFO  (SiguienteTk.java:38) - No aparecio PopUp de youtube premium en la pantalla 1
+2023-06-14T18:47:47,362 [main] INFO  (SiguienteTk.java:42) - El video fue cambiado con exito!
+2023-06-14T18:47:47,431 [main] INFO  (SiguienteTk.java:27) - El nombre del video en reproducción es: Por La Ventana Podcast EN VIVO #28 : Si Fuera Yeimmy
+2023-06-14T18:47:56,510 [main] INFO  (SiguienteTk.java:42) - El video fue cambiado con exito!
+2023-06-14T18:48:26,561 [main] INFO  (ResultadosCanalQ.java:31) - El canal ha sido encontrado, en los resultados de busqueda!
+2023-06-14T18:48:38,924 [main] ERROR (SuscripcionCanalQ.java:42) - La suscripcion al canal Julian Mesa no fue posible, debe iniciar sessión

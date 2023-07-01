@@ -1,0 +1,22 @@
+{
+  "name": "youtubetestscreenplay",
+  "version": "1.0.0",
+  "description": "Proyecto desarrollado en:\r Lenguaje: java 8\r Gestor de dependencias: maven\r Patron de diseño: ScreenPlay",
+  "main": "index.js",
+  "scripts": {
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CamiloEscobaR95/YouTubeTestScreenPlay.git"
+  },
+  "author": "Camilo Escobar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CamiloEscobaR95/YouTubeTestScreenPlay/issues"
+  },
+  "homepage": "https://github.com/CamiloEscobaR95/YouTubeTestScreenPlay#readme",
+  "devDependencies": {
+    "multiple-cucumber-html-reporter": "^3.4.0"
+  }
+}

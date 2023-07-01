@@ -13,7 +13,9 @@ Feature: Como usuario de youtube
 
     Examples:
       | email                             | contrasena     |
-      | qualityAutomatorCamiloE@gmail.com | PassGoogleTest |
+      ##@externaldata@C:/Users/user/Desktop/data/dataYoutube.xlsx@login
+|qualityAutomatorCamiloE@gmail.com|PassGoogleTest|
+|Hola|Login|
 
   @CP_002
   Scenario Outline: Busqueda de cancion
@@ -21,8 +23,9 @@ Feature: Como usuario de youtube
     Then el usuario visulaiza los diferentes resultados de busqueda <tema>
 
     Examples:
-      | tema                 |
-      | UB40 - Kingston Town |
+      | tema              |
+     ##@externaldata@C:/Users/user/Desktop/data/dataYoutube.xlsx@cancion
+|juegos prohibidos|
 
   @CP_003
   Scenario: Validar Funciones reproducción/pausa y siguiente

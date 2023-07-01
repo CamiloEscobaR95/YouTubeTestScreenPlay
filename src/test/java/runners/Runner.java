@@ -9,9 +9,10 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features/youtube.feature",
         glue = "stepDefinitions",
-        tags="@CP_GLOBAL",
+        tags="@CP_001",
         snippets = SnippetType.CAMELCASE,
-        plugin = "pretty"
+        plugin = "json:target/cucumber_report.json"
 )
 public class Runner {
+
 }
